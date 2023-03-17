@@ -23,6 +23,8 @@
 
 /* semantic color variables for this project */
 :root {
+  --color-blue: #8fa8ff;
+
   --color-background: var(--vt-c-white);
   --color-background-soft: var(--vt-c-white-soft);
   --color-background-mute: var(--vt-c-white-mute);
@@ -46,7 +48,7 @@
     --color-border-hover: var(--vt-c-divider-dark-1);
 
     --color-heading: var(--vt-c-text-dark-1);
-    --color-text: var(--vt-c-text-dark-2);
+    --color-text: var(--vt-c-white);
   }
 }
 
@@ -60,10 +62,13 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
   min-height: 100vh;
   color: var(--color-text);
-  background: var(--color-background);
-  transition: color 0.5s, background-color 0.5s;
+  /* background: var(--color-background); */
+  /* transition: color 0.5s, background-color 0.5s; */
   line-height: 1.6;
   font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
     Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -71,4 +76,8 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+  }
+
+  ul {
+    list-style-type: none;
+  }
