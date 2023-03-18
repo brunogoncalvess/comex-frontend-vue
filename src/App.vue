@@ -14,8 +14,8 @@ export default defineComponent({
 
 <template>
 <BarraNavegacao />
-<router-view></router-view>
-<Rodape />
+<router-view />
+<!-- <Rodape /> -->
 </template>
 
 <style scoped>

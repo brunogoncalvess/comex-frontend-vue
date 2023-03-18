@@ -88,3 +88,7 @@ ul {
 #app div#container {
   flex-grow: 1;
 }
+
+a {
+  text-decoration: none;
+}

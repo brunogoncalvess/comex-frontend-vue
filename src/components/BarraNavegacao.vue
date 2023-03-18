@@ -5,7 +5,9 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="#">
-        <img src="../assets/images/primaria.svg" alt="" class="comex-logo">
+        <router-link to="/">
+          <img src="../assets/images/primaria.svg" alt="" class="comex-logo">
+        </router-link>
       </a>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -13,7 +15,9 @@
             <a class="nav-link text-light" aria-current="page" href="#">Promoçoes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="#">Categorias</a>
+            <router-link to="/categorias">
+              <span class="nav-link text-light" href="#">Categorias</span>
+            </router-link>
           </li>
           <li class="nav-item">
             <a class="nav-link text-light" href="#">Contato</a>
