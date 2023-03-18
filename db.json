@@ -1,0 +1,144 @@
+{
+  "clientes": [
+    {
+      "id": "16f58522-b799-4615-8af8-b1130349a7c9",
+      "nome": "Bruno",
+      "sobrenome": "Gonçalves",
+      "cpf": "262626266262",
+      "telefone": "23232323232",
+      "endereco": {
+        "logradouro": "Rua Dom Romualdo Coelho",
+        "bairro": "Vila Missionária",
+        "cidade": "São Paulo",
+        "numero": "16"
+      },
+      "criacao": "2023-02-26"
+    },
+    {
+      "id": "0cfcdc14-4fc0-4255-bd33-b8b9153c50ea",
+      "nome": "Assunção",
+      "sobrenome": "Coelho",
+      "cpf": "464646464",
+      "telefone": "232323131",
+      "endereco": {
+        "logradouro": "Rua Padre Luís Vilares",
+        "bairro": "Vila Missionária",
+        "cidade": "São Paulo",
+        "numero": "50"
+      },
+      "criacao": "2023-02-26"
+    },
+    {
+      "id": "1c3598bf-aa3f-40f1-bbee-0e3ba0b7ebdd",
+      "nome": "Breno",
+      "sobrenome": "Rib",
+      "cpf": "416.916.398-26",
+      "telefone": "",
+      "endereco": {
+        "logradouro": "Rua Dom Romualdo Coelho",
+        "bairro": "Vila Missionária",
+        "cidade": "São Paulo",
+        "numero": "16"
+      },
+      "criacao": "2023-02-26"
+    },
+    {
+      "id": "b712d377-b302-4f78-a0f6-b69817e80bff",
+      "nome": "Gustavo",
+      "sobrenome": "Silva",
+      "cpf": "416.916.398-26",
+      "telefone": "(11) 98769-5887",
+      "endereco": {
+        "logradouro": "Rua Padre Luís Vilares",
+        "bairro": "Vila Missionária",
+        "cidade": "São Paulo",
+        "numero": "98"
+      },
+      "criacao": "2023-02-26"
+    },
+    {
+      "id": "84fe4a6d-8b01-4bbd-3850-813636259a68",
+      "nome": "Jose",
+      "sobrenome": "Ribeiro",
+      "cpf": "416.916.398-26",
+      "telefone": "(11) 98769-5889",
+      "endereco": {
+        "logradouro": "Rua Dom Romualdo Coelho",
+        "bairro": "Vila Missionária",
+        "cidade": "São Paulo",
+        "numero": "20"
+      },
+      "criacao": "2023-03-08"
+    },
+    {
+      "id": "1f7683a5-7bb4-41d5-aece-dd23d0dff5d7",
+      "nome": "Romario",
+      "sobrenome": "Silva",
+      "cpf": "416.916.398-26",
+      "telefone": "(11) 26262-6263",
+      "endereco": {
+        "logradouro": "Rua Dom Romualdo Coelho",
+        "bairro": "Vila Missionária",
+        "cidade": "São Paulo",
+        "numero": "30"
+      },
+      "criacao": "2023-03-08"
+    },
+    {
+      "id": "bb374716-6ad6-46e0-98b0-4c020f156594",
+      "nome": "Romario",
+      "sobrenome": "Silva",
+      "cpf": "416.916.398-26",
+      "telefone": "(11) 95656-2020",
+      "endereco": {
+        "logradouro": "Rua Dom Romualdo Coelho",
+        "bairro": "Vila Missionária",
+        "cidade": "São Paulo",
+        "numero": "26"
+      },
+      "criacao": "2023-03-09"
+    }
+  ],
+  "produtos": [
+    {
+      "id": "364df73a-cc29-4363-b7f1-3f2ae72dd329",
+      "nome": "Notebook Lenovo",
+      "descricao": "Notebook",
+      "preco": "3000",
+      "estoque": "12",
+      "categoria": "informatica",
+      "criacao": "2023-02-26",
+      "imagem": {
+        "url": "https://m.media-amazon.com/images/I/41tQcIInuAL._AC_.jpg",
+        "alt": "Fotografia de um notebook"
+      }
+    },
+    {
+      "id": "ece7e978-6201-4aaf-aa66-379213fa0f49",
+      "nome": "Admirável Mundo Novo",
+      "descricao": "Livro Admirável Mundo Novo de Aldous Huxley",
+      "preco": "35",
+      "estoque": "23",
+      "categoria": "livros",
+      "criacao": "2023-02-26",
+      "imagem": {
+        "url": "https://3.bp.blogspot.com/-Y2SRNYuMWy8/WwhTu5_HuYI/AAAAAAABAWc/FmidlX_pHdwB5u4Lhd59eu1QzVlCCZT1ACLcBGAs/s1600/admiravel-mundo-novo.jpg",
+        "alt": "Capa do livro Adminirável Mundo Novo"
+      }
+    }
+  ],
+  "categorias": [
+    {
+      "categoria": "livros",
+      "id": 1
+    },
+    {
+      "categoria": "informatica",
+      "id": 2
+    },
+    {
+      "categoria": "moveis",
+      "id": 3
+    }
+  ]
+}
