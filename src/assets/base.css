@@ -62,11 +62,8 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  list-style-type: none;
   min-height: 100vh;
-  color: var(--color-text);
+  /* color: var(--color-text); */
   /* background: var(--color-background); */
   /* transition: color 0.5s, background-color 0.5s; */
   line-height: 1.6;
@@ -78,6 +75,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
   }
 
-  ul {
-    list-style-type: none;
-  }
+ul {
+  list-style-type: none;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+#app div#container {
+  flex-grow: 1;
+}
