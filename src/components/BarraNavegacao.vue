@@ -38,12 +38,7 @@
   </nav>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue'
-export default defineComponent({
-  name: 'BarraNavegacao',
-  
-})
+<script lang="ts" setup>
 </script>
 
 <style scoped>

@@ -1,15 +1,6 @@
-<script lang="ts">
-import { defineComponent } from 'vue';
+<script lang="ts" setup>
 import BarraNavegacao from './components/BarraNavegacao.vue';
 import Rodape from './components/Rodape.vue';
-
-export default defineComponent({
-  name: 'App',
-  components: {
-    BarraNavegacao,
-    Rodape
-  }
-})
 </script>
 
 <template>

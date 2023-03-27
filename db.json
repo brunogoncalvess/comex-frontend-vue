@@ -97,6 +97,20 @@
         "numero": "26"
       },
       "criacao": "2023-03-09"
+    },
+    {
+      "id": "6dbd0897-f1ea-41f5-9dac-614ff34cc63c",
+      "nome": "Teste",
+      "sobrenome": "Teste",
+      "cpf": "Teste",
+      "telefone": "Teste",
+      "endereco": {
+        "logradouro": "Rua Dom Romualdo Coelho",
+        "bairro": "Vila Missionária",
+        "cidade": "São Paulo",
+        "numero": "16"
+      },
+      "criacao": "2023-03-26"
     }
   ],
   "produtos": [

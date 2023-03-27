@@ -61,7 +61,7 @@
 
       <div class="products-container container mt-4 mb-4">
         <div
-          v-for="product in producst"
+          v-for="product in state.producst"
           :key="product.id"
           class="card justify-content-between"
           style="width: 18rem"
@@ -90,26 +90,21 @@
   </div>
 </template>
 
-<script lang="ts">
+<script lang="ts" setup>
 import type { Produto } from "@/models/produto.js";
-import { defineComponent } from "vue";
+import { onMounted, reactive } from "vue";
 import * as productService from "../services/produtos-service.js";
 
-export default defineComponent({
-  name: "Home",
-
-  data() {
-    return {
-      producst: [] as any[],
-    };
-  },
-
-  mounted() {
-    productService.fetchProducts().then((products) => {
-      products.forEach((p) => this.producst.push(p));
-    });
-  },
+const state = reactive({
+  producst: [] as any[],
 });
+
+onMounted(() => {
+  productService.fetchProducts().then((products) => {
+    products.forEach((p) => state.producst.push(p));
+  });
+});
+
 </script>
 
 <style scoped>
@@ -153,6 +148,6 @@ export default defineComponent({
 
 .products-container {
   display: flex;
-  gap: 2rem
+  gap: 2rem;
 }
 </style>
