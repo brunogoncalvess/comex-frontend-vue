@@ -91,16 +91,15 @@
 </template>
 
 <script lang="ts" setup>
-import type { Produto } from "@/models/produto.js";
 import { onMounted, reactive } from "vue";
-import * as productService from "../services/produtos-service.js";
+import * as productService from "@/services/produtos-service.js";
 
 const state = reactive({
   producst: [] as any[],
 });
 
 onMounted(() => {
-  productService.fetchProducts().then((products) => {
+  productService.buscaProdutos().then((products) => {
     products.forEach((p) => state.producst.push(p));
   });
 });
